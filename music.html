@@ -1,60 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-
-        <title>Clay's Favorite Music</title>
-    </head>
-
-    <body>
+<head>
+    <meta charset="utf-8">
+    <title>Clay's Favorite Music</title>
+</head>
+<body>
+    <header>
         <h1>Clay's Favorite Music</h1>
         <p>One of my favorite things ever is music. Here is a list of my top 3 favorite music genres!</p>
-        <p>If you are interested in my other favs:</p>
-        <a href="index.html" title="My overall favorite things">Favorite Things</a>
-        <a href="foods.html" title="My favorite foods">Favorite Foods</a>
-        <ol reversed>
-            <li><h2>R&B</h2></li>
-            <p>
-                To start off the list we have my third favorite genre, R&B. 
-                R&B is a top three favorite genre for me for many reasons, but here are a few of the main ones:
-            </p>
-            <ul>
-                <li>Always puts me in a chill mood.</li>            
-                <li>Easy to listen to.</li>
-                <li>My favorite R&B artist is Sampha.</li>
-            </ul>
-            <video src="sampha.mp4" autoplay muted></video>
-            <li><h2>Alternative Rock</h2></li>
-            <p>
-                My second favorite genre is Alternative Rock. 
-                Here is why I think it is the second best genre:
-            </p>
-            <ul>
-                <li>Always hypes me up!</li>            
-                <li>One of the hardest hitting music genres.</li>
-                <li>My favorite alternative rock artists are Jack White and Twenty One Pilots.</li>
-            </ul>
-            <video src="top2.mp4" controls></video>
-            <p>Twenty One Pilots is a fun band because of the interactive lore behind the songs.</p>
-            <figcaption>Listen to the lore here:</figcaption>
-            <audio controls src="top.mp4"></audio>
+        <nav>
+            <p>If you are interested in my other favs:</p>
+            <a href="index.html" title="My overall favorite things">Favorite Things</a>
+            <a href="foods.html" title="My favorite foods">Favorite Foods</a>
+        </nav>
+    </header>
 
+    <main>
+        <article>
+            <h2>My Top 3 Genres</h2>
+            <ol reversed>
+                <li>
+                    <section>
+                        <h3>R&B</h3>
+                        <p>
+                            To start off the list we have my third favorite genre, R&B. 
+                            R&B is a top three favorite genre for me for many reasons, but here are a few of the main ones:
+                        </p>
+                        <ul>
+                            <li>Always puts me in a chill mood.</li>            
+                            <li>Easy to listen to.</li>
+                            <li>My favorite R&B artist is Sampha.</li>
+                        </ul>
+                        <video src="sampha.mp4" autoplay muted>
+                            Sorry, your browser doesn’t support embedded videos.
+                        </video>
+                    </section>
+                </li>
 
-            <li><h2>Hip Hop / Rap</h2></li>
-            <p>
-                My number one favorite genre is Rap and Hip Hop. 
-                Here is why it is my favorite of all time:
-            </p>
-            <ul>
-                <li>The flow and lyricism always hits hard and takes a lot of skill.</li>            
-                <li>I love the beats in the songs.</li>
-                <li>My favorite rap artist is Kanye West.</li>
-            </ul>
-            <video src="kanye.mp4" controls></video>
+                <li>
+                    <section>
+                        <h3>Alternative Rock</h3>
+                        <p>
+                            My second favorite genre is Alternative Rock. 
+                            Here is why I think it is the second best genre:
+                        </p>
+                        <ul>
+                            <li>Always hypes me up!</li>            
+                            <li>One of the hardest hitting music genres.</li>
+                            <li>My favorite alternative rock artists are Jack White and Twenty One Pilots.</li>
+                        </ul>
+                        <video src="top2.mp4" controls>
+                            Sorry, your browser doesn’t support embedded videos.
+                        </video>
+                        <p>Twenty One Pilots is a fun band because of the interactive lore behind the songs.</p>
+                        <figure>
+                            <figcaption>Listen to the lore here:</figcaption>
+                            <audio controls src="top.mp3">
+                                Sorry, your browser doesn’t support embedded audio.
+                            </audio>
+                        </figure>
+                    </section>
+                </li>
 
-        </ol>
-        <h3>My Stats:</h3>
+                <li>
+                    <section>
+                        <h3>Hip Hop / Rap</h3>
+                        <p>
+                            My number one favorite genre is Rap and Hip Hop. 
+                            Here is why it is my favorite of all time:
+                        </p>
+                        <ul>
+                            <li>The flow and lyricism always hits hard and takes a lot of skill.</li>            
+                            <li>I love the beats in the songs.</li>
+                            <li>My favorite rap artist is Kanye West.</li>
+                        </ul>
+                        <video src="kanye.mp4" controls>
+                            Sorry, your browser doesn’t support embedded videos.
+                        </video>
+                    </section>
+                </li>
+            </ol>
+        </article>
+
+        <article>
+            <h2>My Stats</h2>
             <table>
+                <caption>Minutes listened and songs streamed by genre</caption>
                 <thead>
                     <tr>
                         <th>Genre</th>
@@ -79,10 +110,17 @@
                         <td>2,339</td>
                     </tr>
                 </tbody>
-            </table>     
-        <p>  
-            As a bonus, here is my favorite song of all time. Ode to Sleep by Twenty One Pilots:
-        </p>
-        <a href="https://www.youtube.com/watch?v=2OnO3UXFZdE&list=RD2OnO3UXFZdE&start_radio=1" title="My favorite song">My Favorite Song: Ode to Sleep - Twenty One Pilots</a>
-    </body>
+            </table>
+        </article>
+
+        <article>
+            <h2>Bonus</h2>
+            <p>
+                As a bonus, here is my favorite song of all time: 
+                <a href="https://www.youtube.com/watch?v=2OnO3UXFZdE&list=RD2OnO3UXFZdE&start_radio=1" 
+                   title="My favorite song">Ode to Sleep by Twenty One Pilots</a>
+            </p>
+        </article>
+    </main>
+</body>
 </html>
