@@ -20,13 +20,12 @@ p {
   font-size: 16px;
 }
 
-.main-title {
-  font-size: 40px;
+#main-title {
   text-align: center;
   background-color: pink;
   color: blue;
 }
 
-#bonus-title {
+.bonus {
   background-color: blue;
   color: pink;
